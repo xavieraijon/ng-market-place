@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  headerTitle: string = 'Ng Market Place'
+  headerTitle: string = 'Simple Angular Market Place'
 
   constructor() { }
 
