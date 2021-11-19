@@ -1,21 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { HomeRoutingModule } from './home-routing.module';
+import { SharedModule } from 'src/app/shared/shared.module';
+
 import { HomeComponent } from './home.component';
 import { ProductComponent } from './components/product/product.component';
-import {MatCardModule} from '@angular/material/card';
+import { ProductsListComponent } from './components/products-list/products-list.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
-    ProductComponent
+    ProductComponent,
+    ProductsListComponent
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
-    MatCardModule
+    SharedModule
   ]
 })
 export class HomeModule { }

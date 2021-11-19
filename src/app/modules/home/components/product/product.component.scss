@@ -1,0 +1,12 @@
+.product-card {
+  width: 400px;
+  height: 450px;
+  display: flex;
+
+  .mat-card-image {
+    > img {
+      height: 200px;
+      margin: auto;
+    }
+  }
+}
