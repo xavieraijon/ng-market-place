@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatBadgeModule } from '@angular/material/badge';
 
 
 @NgModule({
@@ -17,14 +18,16 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatBadgeModule
   ],
   exports: [
     MatIconModule,
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatBadgeModule
   ]
 })
 export class SharedModule { }

@@ -1,6 +1,7 @@
 <mat-toolbar color="primary" class="flex justify-between">
   <a class="logo" [routerLink]="['/']">{{ headerTitle }}</a>
-  <button routerLink="/cart" mat-icon-button aria-label="Example icon-button with heart icon">
+  <button routerLink="/cart" matBadge="0" matBadgeColor="warn" mat-icon-button aria-label="Example icon-button with heart icon">
     <mat-icon>shopping_cart</mat-icon>
   </button>
+  <p>{{ getProductCount() }}</p>
 </mat-toolbar>

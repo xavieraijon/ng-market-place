@@ -2,9 +2,8 @@ export interface Product {
   id: number,
   name: string,
   description: string,
-  price: {
-    original: number
-  },
+  price: number,
   features: Array<string>,
-  image: string
+  image: string,
+  count: number
 }
